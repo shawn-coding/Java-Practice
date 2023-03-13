@@ -2,7 +2,7 @@ package Basics.Strings;
 
 class StringBasics {
     //This java class practices String syntax and edge cases.
-    public static void main(String[] args){
+    public static void stringEquality(){
         //First off, string comparisons. == vs .equals().
         //A few starting devs confuse the two sometimes, let's remedy that.
         //make two new strings, same content, different references
@@ -25,6 +25,9 @@ class StringBasics {
         * to s2?). So if you've got an equation you wanna concatenate,
         * always encapsulate it in parentheses
         */
+    }
+    public static void main(String[] args){
+        stringEquality();
     }
 
 }
