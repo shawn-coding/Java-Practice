@@ -1,9 +1,9 @@
 package Basics.Threads;
 
 public class newThread extends Thread{
-    public void start(){
+    public void run(){
         for(int i=1;i<21;i++){
-            System.out.println("This thread is running "+i+" time(s).");
+            System.out.println(this.getName() + " is running "+i+" time(s).");
         
             try{
                 Thread.sleep(3000);
