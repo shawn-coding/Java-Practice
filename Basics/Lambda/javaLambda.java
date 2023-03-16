@@ -20,4 +20,13 @@ public class javaLambda {
         System.out.println("List changed. Let's see what prints out now!:");
         intList.forEach(n -> System.out.println(n));
     }
+        /*
+         * For the next process, I'd like to work on objects with methods.
+         * Then I could do some things like:
+         * Bird sparrow = new Bird();
+         * sparrow ->sparrow.canFly();
+         * I think it would help out with just pushing all that into smaller
+         * bits, but I'll also have to research to see performance of it
+         * vs a method call of something small like above, checking if even.
+         */
 }
